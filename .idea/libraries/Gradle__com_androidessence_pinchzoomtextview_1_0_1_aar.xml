@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.androidessence:pinchzoomtextview:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328cd970dfe3f881f60e7431759c429b/pinchzoomtextview-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328cd970dfe3f881f60e7431759c429b/pinchzoomtextview-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.androidessence/pinchzoomtextview/1.0.1/4cc5cccb68ffcd8d9600c8274691e8a3e0468f47/pinchzoomtextview-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.androidessence/pinchzoomtextview/1.0.1/e1a3467fbae542ef974a0422a092f7b373db2b1c/pinchzoomtextview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layoutDirection="rtl"
+    tools:context=".signup_activty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/lalezar"
+                android:gravity="center"
+                android:text="@string/head2"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="الاسم : "
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/lalezar"
+                android:hint="ادخل اسمك "
+                android:inputType="textPersonName"
+                android:padding="6dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="البريد الإلكترونى : "
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/lalezar"
+                android:hint=" example@example.com "
+                android:inputType="textEmailAddress"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="كلمة السر : "
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/lalezar"
+                android:hint="ادخل كلمة السر "
+                android:inputType="textPassword"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="25dp"
+                android:background="#6c63ff"
+                android:text="أنشئ حساب"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لديك حساب بالفعل؟"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lalezar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

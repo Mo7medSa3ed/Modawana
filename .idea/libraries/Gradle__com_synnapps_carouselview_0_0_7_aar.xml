@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.synnapps:carouselview:0.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/603233bba190f4bec4b829c7d5f4da2f/jetified-carouselview-0.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/603233bba190f4bec4b829c7d5f4da2f/jetified-carouselview-0.0.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.synnapps/carouselview/0.0.7/3967476ca8946928b9fac8084cae05d3889042b4/carouselview-0.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.synnapps/carouselview/0.0.7/dff09904546c7dc0abc8f7fc370a357e3126e5df/carouselview-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

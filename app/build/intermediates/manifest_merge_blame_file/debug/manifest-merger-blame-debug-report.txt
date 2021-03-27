@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.modawana"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:5:5-79
+11-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:7:5-76
+13-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <application
+15-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:9:5-57:19
+16        android:allowBackup="true"
+16-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:hardwareAccelerated="false"
+19-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:11:9-44
+20        android:icon="@mipmap/ic_launcher3"
+20-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:12:9-44
+21        android:label="@string/app_name"
+21-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:13:9-41
+22        android:largeHeap="true"
+22-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:14:9-33
+23        android:supportsRtl="true"
+23-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/AppTheme" >
+24-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity android:name="com.example.modawana.Comments" />
+25-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:17:9-46
+25-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:17:19-43
+26        <activity android:name="com.example.modawana.Article" />
+26-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:18:9-45
+26-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:18:19-42
+27        <activity
+27-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:19:9-22:62
+28            android:name="com.example.modawana.Home"
+28-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:20:13-33
+29            android:configChanges="screenSize|orientation"
+29-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:22:13-59
+30            android:screenOrientation="portrait" />
+30-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:21:13-49
+31        <activity
+31-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:23:9-27:52
+32            android:name="com.example.modawana.start_grammer"
+32-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:24:13-42
+33            android:configChanges="screenSize|orientation"
+33-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:25:13-59
+34            android:noHistory="true"
+34-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:26:13-37
+35            android:screenOrientation="portrait" />
+35-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:27:13-49
+36        <activity
+36-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:28:9-32:40
+37            android:name="com.example.modawana.signup_activty"
+37-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:29:13-43
+38            android:configChanges="screenSize|orientation"
+38-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:30:13-59
+39            android:noHistory="true"
+39-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:32:13-37
+40            android:screenOrientation="portrait" />
+40-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:31:13-49
+41        <activity
+41-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:33:9-37:40
+42            android:name="com.example.modawana.login_activity"
+42-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:34:13-43
+43            android:configChanges="screenSize|orientation"
+43-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:35:13-59
+44            android:noHistory="true"
+44-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:37:13-37
+45            android:screenOrientation="portrait" />
+45-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:36:13-49
+46        <activity
+46-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:38:9-47:20
+47            android:name="com.example.modawana.splash_activity"
+47-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:39:13-44
+48            android:configChanges="screenSize|orientation"
+48-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:40:13-59
+49            android:screenOrientation="portrait" >
+49-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:41:13-49
+50            <intent-filter>
+50-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:42:13-46:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:43:17-69
+51-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:43:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:45:17-77
+53-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:45:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:48:9-52:52
+57            android:name="com.example.modawana.MainActivity"
+57-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:49:13-41
+58            android:configChanges="screenSize|orientation"
+58-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:50:13-59
+59            android:noHistory="true"
+59-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:51:13-37
+60            android:screenOrientation="portrait" />
+60-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:52:13-49
+61
+62        <meta-data
+62-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:54:9-56:57
+63            android:name="preloaded_fonts"
+63-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:55:13-43
+64            android:resource="@array/preloaded_fonts" />
+64-->E:\Android Projects\Modawana\app\src\main\AndroidManifest.xml:56:13-54
+65
+66        <provider
+66-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+67            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+68            android:authorities="com.example.modawana.lifecycle-process"
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+69            android:exported="false"
+69-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+70            android:multiprocess="true" />
+70-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Mohamed\.gradle\caches\transforms-2\files-2.1\58629c19fa6c616abd60edc0d2bb07b8\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+71    </application>
+72
+73</manifest>

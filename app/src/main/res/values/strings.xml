@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quaed</string>
+    <string name="head1"><u>تسجيل الدخول</u> </string>
+    <string name="head2"><u>أنشئ حساب</u></string>
+    <string name="head3"><u> فى إمكانك</u></string>
+    <string name="head4"><u>قواعد</u></string>
+    <string name="head5"><u>القواعد</u></string>
+    <string name="head6"><u>الكلمات</u></string>
+    <string name="head7"><u>التعليقات:</u></string>
+    <string name="head8"><u>أضف تعليقا:</u></string>
+    <string name="head11"><u>أهدافنا</u></string>
+
+
+    <string name="startgrammeractivity">منصة عربية متخصصة فى تعليم قواعد اللغة الانجليزية بخبرات معلمينا التى تزيد عن ال 25 عاما فى مجال التدريس و التربية نأخذ بيدك من الصفر إلى القمة فى قواعد الإنجليزية بأسلوب جذاب و سلس .</string>
+
+
+    <string name="title_activity_home">الرئيسية</string>
+    <string name="title_home">القواعد</string>
+    <string name="title_dashboard">الكلمات</string>
+    <string name="title_notifications">حسابك</string>
+    <string name="link"><a href="https://www.facebook.com/mohamedsaeed555">https://www.facebook.com/mohamedsaeed555</a></string>
+
+
+
+</resources>
